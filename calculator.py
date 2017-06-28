@@ -24,7 +24,7 @@ class CalculatorClass(object):
         servira para ir agregando los valores a la lista, dicha
         funcion terminara mostrando todos los nros introducidos
         """
-    	longlist= input("Cantidad de valores de la lista > ")
+    	longlist = input("Cantidad de valores de la lista > ")
     	for i in range(longlist):
     		self.num_list.append(input("Ingrese un Numero >"))
     	print ("Nros >"+str(self.num_list))
