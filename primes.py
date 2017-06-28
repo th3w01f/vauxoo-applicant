@@ -19,13 +19,13 @@ class PrimeClass():
 		el nro 0
 		"""
 
-		for i in range(2,num_int):
+		for i in range(2, num_int):
 
-			if num_int%i==0:
+			if num_int%i == 0:
 				boolean = False
 				print boolean
 				return boolean
-			elif num_int%i!=0:
+			elif num_int%i != 0:
 				boolean = True
 				print boolean
 				return boolean
