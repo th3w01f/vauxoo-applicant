@@ -36,7 +36,7 @@ class CalculatorClass(object):
         """
         #
         for i in self.num_list:
-        	self.result+= i
+        	self.result += i
         print "La Suma Total Es : "+str(self.result)
 
 
