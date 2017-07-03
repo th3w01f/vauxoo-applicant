@@ -2,7 +2,7 @@
 -- NOTE: Please, don't add sentence to create database in this script file.
 --       You can create database locally to test it.
 --       Consider add ';' at end sentence.
-
+-- crear tabla employee;
 CREATE TABLE employee (
   id serial,
 	primary key (id),
@@ -10,7 +10,7 @@ CREATE TABLE employee (
 	first_name varchar(50) not null,
 	last_name varchar(50) not null
 );
-
+-- crear tabla departamento;
 CREATE TABLE employee_department (
   id serial,
 	primary key (id),
