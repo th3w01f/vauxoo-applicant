@@ -45,6 +45,7 @@ INSERT INTO employee_department (name, description)
 		('Department6', 'DepartmentDescription6');
 
 -- añadiendo columna adicional para asignar jefe;
+-- un solo jefe para todos los empleados;
 ALTER TABLE employee ADD COLUMN id_department serial;
 
 UPDATE employee SET id_department = '1' WHERE id = '1';
