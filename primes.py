@@ -1,6 +1,7 @@
+#!/usr/bin/env python
+#-*- encoding:utf-8 -*-
 """
 Modulo que retorna si el nro que se le pasa es primo o no
-()
 """
 
 
@@ -16,12 +17,12 @@ class PrimeClass(object):
         luego lo hace una division entera y verifica
         si el resultado del resto es 0
         """
-        primo = True
+        prime = True
         if num_int < 2:
-            primo = False
+            prime = False
         else:
             num = num_int // 2
             for it in range(2, num + 1):
                 if num_int % it == 0:
-                    primo = False
-        return primo
+                    prime = False
+        return prime

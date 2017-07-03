@@ -1,22 +1,17 @@
 
 """
-modulo que muestra la sumatoria total de 
-todos los nros en una lista
-[]
+modulo que suma nros de una lista
 """
 
 
 class CalculatorClass(object):
     """
-    clase con una funcion que sirve para
-    sumar los elementos de una lista
+    clase con una funcion con 2 parametros
     """
 
     def sum(self, num_list):
         """
-        funcion que mediante un bucle for recorre
-        todos los elementos de la lista y los 
-        va almacenando en suma
+        funcion con un bucle for para recorrer
         """
 
         suma = 0
