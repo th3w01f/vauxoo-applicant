@@ -2,6 +2,7 @@
 """
 modulo que muestra la sumatoria total de 
 todos los nros en una lista
+[]
 """
 
 
