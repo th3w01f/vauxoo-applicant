@@ -18,7 +18,7 @@ CREATE TABLE employee_department (
 	name varchar(50) not null,
 	description text not null
 );
-
+--crear tabla hobby;
 CREATE TABLE employee_hobby (
 	id serial,
 	primary key (id),
