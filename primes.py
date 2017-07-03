@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-#-*- encoding:utf-8 -*-
 """
 Modulo que retorna si el nro que se le pasa es primo o no
 """
